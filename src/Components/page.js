@@ -3,10 +3,9 @@ import './styles.css';
 
 export function page() {
     return(
-        <body className="page">
-
-
-        </body>
+        <div className="page">
+            <input type="text" />
+        </div>
     );
 
 }
