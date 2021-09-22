@@ -6,6 +6,14 @@
     position: absolute;
 }
 
+.information {
+    margin-top: 3%;
+    position: relative;
+    height: 20%;
+    width: 100%;
+    background-color: rgb(240, 196, 196);
+    z-index: 5;
+}
 
 .headerFont {
     font-size: 50px;
@@ -27,3 +35,12 @@
     top: 10%;
 }
 
+.input_grid {
+    grid-gap: 5%;
+    height: 50%;
+    width: 90%;
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+}
