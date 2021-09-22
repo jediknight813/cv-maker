@@ -19,34 +19,89 @@ export function page() {
 
             </div>
 
-            <div id="#EducationAndTraining" > </div>
-            
-            <div className="information"> 
+
+            <div id="#EducationAndTraining"  className="information"> 
                 <h1> Education and Training </h1>
+
+                <div className="input_grid" id="input_grid">
+                    <input placeholder="title of qualification" type="text" />
+                    <input placeholder="organization providing training" type="email" />
+                    <input placeholder="start data" type="number" />
+                    <input placeholder="end date" type="number" />
+                </div>
+
+            </div>
+
+            <div id="#EducationAndTraining2"  className="information"> 
+                <h1> Education and Training </h1>
+
+                <div className="input_grid" id="input_grid">
+                    <input placeholder="title of qualification" type="text" />
+                    <input placeholder="organization providing training" type="email" />
+                    <input placeholder="start data" type="number" />
+                    <input placeholder="end date" type="number" />
+                </div>
 
             </div>
 
             <div id="WorkExperience" className="information"> 
                 <h1> Work Experience </h1>
+
+                <div className="input_grid" id="input_grid">
+                    <input placeholder="title of job" type="text" />
+                    <input placeholder="employer" type="email" />
+                    <input placeholder="start data" type="number" />
+                    <input placeholder="end date" type="number" />
+                </div>
             </div>
 
 
-            <button onClick={addEducationAndTraining}> add </button>
+            <div id="WorkExperience2" className="information"> 
+                <h1> Work Experience </h1>
+
+                <div className="input_grid" id="input_grid">
+                    <input placeholder="title of job" type="text" />
+                    <input placeholder="employer" type="email" />
+                    <input placeholder="start data" type="number" />
+                    <input placeholder="end date" type="number" />
+                </div>
+            </div>
+
         </div>
     );
 
 }
 
-function addEducationAndTraining() {
-    var education = document.createElement('div')
-    var button = document.createElement('button')
-    button.textContent="remove"
-    education.className = "information"
-    education.appendChild(button)
-    document.getElementById("#EducationAndTraining").appendChild(education)
- 
-}
 
+// function addEducationAndTraining() {
+//     var education = document.createElement('div')
+//     var button = document.createElement('button')
+//     var header = document.createElement('h1')
+//     var titleOfJob = document.createElement('input')
+//     var providerOfEducation = document.createElement('input')
+//     var endOfEmployment = document.createElement('input')
+//     providerOfEducation.placeholder="provider of education"
+//     endOfEmployment.placeholder="to"
+//     var startOfEmployment = document.createElement('input')
+//     startOfEmployment.placeholder="from"
+//     var inputbar = document.createElement('div')
+//     inputbar.className="input_grid"
+//     titleOfJob.type="text"
+//     titleOfJob.placeholder="title of job"
+//     header.textContent = "Education and Training"
+//     button.textContent="remove"
+//     education.className = "information"
+//     button.onclick=(button.parentNode.removeChild(button.parentNode))
+//     inputbar.appendChild(providerOfEducation)
+//     education.appendChild(header)
+//     inputbar.appendChild(titleOfJob)
+//     inputbar.appendChild(startOfEmployment)
+//     inputbar.appendChild(endOfEmployment)
+//     education.appendChild(inputbar)
+//     education.appendChild(button)
+//     document.getElementById("#EducationAndTraining").appendChild(education)
+
+// }
 
 export default page
 
