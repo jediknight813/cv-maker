@@ -96,7 +96,6 @@ export function page() {
                                         education.className="information"
                                         document.getElementById('WorkExperience').appendChild(education)   }} className="add_button"> add </button>
 
-
             </div>
     );
 
