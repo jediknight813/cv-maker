@@ -1,5 +1,6 @@
 {
-  "name": "cv-creator",
+  "name": "cv-maker",
+  "homepage": "https://github.com/jediknight813/cv-maker",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

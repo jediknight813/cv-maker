@@ -1,4 +1,4 @@
-import React, {getElementById, appendChild} from 'react';
+import React from 'react';
 import './styles.css';
 
 
@@ -109,35 +109,35 @@ function deleteItem() {
 
 
 
-function addEducationAndTraining() {
-    var education = document.createElement('div')
-    var button = document.createElement('button')
-    var header = document.createElement('h1')
-    var titleOfJob = document.createElement('input')
-    var providerOfEducation = document.createElement('input')
-    var endOfEmployment = document.createElement('input')
-    providerOfEducation.placeholder="provider of education"
-    endOfEmployment.placeholder="to"
-    var startOfEmployment = document.createElement('input')
-    startOfEmployment.placeholder="from"
-    var inputbar = document.createElement('div')
-    inputbar.className="input_grid"
-    titleOfJob.type="text"
-    titleOfJob.placeholder="title of job"
-    header.textContent = "Education and Training"
-    button.textContent="remove"
-    education.className = "information"
-    button.onclick=(button.parentNode.removeChild(button.parentNode))
-    inputbar.appendChild(providerOfEducation)
-    education.appendChild(header)
-    inputbar.appendChild(titleOfJob)
-    inputbar.appendChild(startOfEmployment)
-    inputbar.appendChild(endOfEmployment)
-    education.appendChild(inputbar)
-    education.appendChild(button)
-    document.getElementById("EducationAndTraining").appendChild(education)
+// function addEducationAndTraining() {
+//     var education = document.createElement('div')
+//     var button = document.createElement('button')
+//     var header = document.createElement('h1')
+//     var titleOfJob = document.createElement('input')
+//     var providerOfEducation = document.createElement('input')
+//     var endOfEmployment = document.createElement('input')
+//     providerOfEducation.placeholder="provider of education"
+//     endOfEmployment.placeholder="to"
+//     var startOfEmployment = document.createElement('input')
+//     startOfEmployment.placeholder="from"
+//     var inputbar = document.createElement('div')
+//     inputbar.className="input_grid"
+//     titleOfJob.type="text"
+//     titleOfJob.placeholder="title of job"
+//     header.textContent = "Education and Training"
+//     button.textContent="remove"
+//     education.className = "information"
+//     button.onclick=(button.parentNode.removeChild(button.parentNode))
+//     inputbar.appendChild(providerOfEducation)
+//     education.appendChild(header)
+//     inputbar.appendChild(titleOfJob)
+//     inputbar.appendChild(startOfEmployment)
+//     inputbar.appendChild(endOfEmployment)
+//     education.appendChild(inputbar)
+//     education.appendChild(button)
+//     document.getElementById("EducationAndTraining").appendChild(education)
 
-}
+// }
 
 
 
