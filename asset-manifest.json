@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/jediknight813/cv-maker/static/css/main.a9483996.chunk.css",
+    "main.js": "/jediknight813/cv-maker/static/js/main.e144644b.chunk.js",
+    "main.js.map": "/jediknight813/cv-maker/static/js/main.e144644b.chunk.js.map",
+    "runtime-main.js": "/jediknight813/cv-maker/static/js/runtime-main.aa888935.js",
+    "runtime-main.js.map": "/jediknight813/cv-maker/static/js/runtime-main.aa888935.js.map",
+    "static/js/2.d7671e3a.chunk.js": "/jediknight813/cv-maker/static/js/2.d7671e3a.chunk.js",
+    "static/js/2.d7671e3a.chunk.js.map": "/jediknight813/cv-maker/static/js/2.d7671e3a.chunk.js.map",
+    "static/js/3.1034bc99.chunk.js": "/jediknight813/cv-maker/static/js/3.1034bc99.chunk.js",
+    "static/js/3.1034bc99.chunk.js.map": "/jediknight813/cv-maker/static/js/3.1034bc99.chunk.js.map",
+    "index.html": "/jediknight813/cv-maker/index.html",
+    "static/css/main.a9483996.chunk.css.map": "/jediknight813/cv-maker/static/css/main.a9483996.chunk.css.map",
+    "static/js/2.d7671e3a.chunk.js.LICENSE.txt": "/jediknight813/cv-maker/static/js/2.d7671e3a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aa888935.js",
+    "static/js/2.d7671e3a.chunk.js",
+    "static/css/main.a9483996.chunk.css",
+    "static/js/main.e144644b.chunk.js"
+  ]
+}
