@@ -9,9 +9,9 @@
 .information {
     margin-top: 3%;
     position: relative;
-    height: 20%;
-    width: 100%;
-    background-color: rgb(252, 246, 246);
+    height: 200px;
+    width: 800px;
+    background-color: rgb(244, 240, 240);
     z-index: 5;
 }
 
@@ -26,9 +26,15 @@
 }
 
 
+.button {
+    right: 0%;
+    top: 70%;
+    position: relative;
+}
+
 .page {
     position: absolute;
-    height: 85%;
+    height: 90%;
     width: 45%;
     background-color: rgb(255, 255, 255);
     left: 26%;
@@ -36,11 +42,34 @@
 }
 
 .input_grid {
-    grid-gap: 5%;
-    height: 50%;
+    grid-gap: 10%;
+    height: 40%;
     width: 90%;
     grid-template-columns: repeat(2, 1fr);
     display: grid;
     margin-left: auto;
     margin-right: auto;
 }
+
+.add_button {
+    margin-top: 3%;
+    width: 15%;
+    height: 3%;
+    border-radius: 10%;
+}
+
+.footer {
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background: rgb(145, 223, 249);
+    z-index: 10;
+  }
+
+  .footer_text {
+      font-size: 25px;
+      color: white;
+      font-family: fantasy;
+  }

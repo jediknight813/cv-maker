@@ -1,6 +1,8 @@
 import './App.css';
 import Header from './Components/header';
 import Page from './Components/page';
+import Footer from './Components/footer'
+
 
 // load all of the child components
 function App() {
@@ -8,6 +10,7 @@ function App() {
     <div className="App">
       <Header /> 
       <Page />
+      <Footer />
     </div>
   );
 }
